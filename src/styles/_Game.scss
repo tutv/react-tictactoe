@@ -1,0 +1,27 @@
+.Game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+
+    &.isFinish {
+        .Board {
+            .Row {
+                .Square {
+                    cursor: auto;
+                }
+            }
+        }
+    }
+
+    .Top {
+        display: flex;
+        justify-content: space-between;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .Bottom {
+        margin-top: 20px;
+    }
+}

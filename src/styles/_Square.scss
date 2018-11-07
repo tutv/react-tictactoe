@@ -1,0 +1,17 @@
+.Square {
+    display: inline-flex;
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 500;
+    border: 1px solid #eee;
+    margin-top: -1px;
+    margin-right: -1px;
+
+    &:not(.selected) {
+        cursor: pointer;
+    }
+}
